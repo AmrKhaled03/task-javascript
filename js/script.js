@@ -382,7 +382,7 @@ function changeColor() {
 let previewContainer = document.querySelector(".products-preview");
 let previewBoxs = document.querySelectorAll(".preview");
 
-document.querySelectorAll(".box img").forEach((product) => {
+document.querySelectorAll(".box>img").forEach((product) => {
   product.onclick = () => {
     previewContainer.style.display = "flex";
     let name = product.getAttribute("data-name");
