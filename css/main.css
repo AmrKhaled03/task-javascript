@@ -42,7 +42,7 @@ body.active {
   justify-content: center;
 }
 .disappear {
-  animation: vanish 10s forwards;
+  animation: vanish 6s forwards;
 }
 @keyframes vanish {
   100% {
